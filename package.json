@@ -1,0 +1,26 @@
+{
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "Restaurant app that lets users input the type of burgers they like to eat, using MySQL, Node, Express, Handlebars, and an ORM.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/carenbriones/burger.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/carenbriones/burger/issues"
+    },
+    "homepage": "https://github.com/carenbriones/burger#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "mysql": "^2.17.1"
+    }
+}
